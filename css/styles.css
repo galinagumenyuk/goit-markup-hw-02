@@ -25,7 +25,15 @@ body {
     color: var(--accent-coloure);
 }
 
-
+/* Основной блок портфолио */
+.portfolio-button{
+    color: var(--primery-text-coloure);
+    background-color: #F5F4FA;
+    }
+    .portfolio-button:focus, .portfolio-button:hover{
+        color: #FFFFFF;
+        background-color: var(--accent-coloure);
+    }
 
 /* футер */
 .footer-contacts{
