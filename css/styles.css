@@ -156,3 +156,8 @@ body {
 .footer .logo-accent {
   color: #ffffff;
 }
+
+/* список */
+li {
+  list-style-type: none;
+}
