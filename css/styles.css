@@ -4,9 +4,10 @@
   --accent-coloure: #2196f3;
 }
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   color: var(--secondary-text-coloure);
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /* Хэдер */
@@ -16,14 +17,12 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 .logo-accent {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--primery-text-coloure);
 }
 .nav .link {
@@ -74,35 +73,28 @@ body {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primery-text-coloure);
 }
 .features .subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primery-text-coloure);
 }
 .features .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7x;
-  letter-spacing: 0.03em;
 }
 .team .subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--primery-text-coloure);
 }
 .team .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 /* Основной блок портфолио */
 .portfolio-button {
@@ -112,7 +104,6 @@ body {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
   cursor: pointer;
 }
 .portfolio-button:focus,
@@ -131,10 +122,8 @@ body {
 }
 
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-coloure);
 }
 /* футер */
